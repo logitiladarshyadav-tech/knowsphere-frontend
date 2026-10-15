@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:8080/api/resources";
+const API_URL = "https://knowsphere-backend-wcen.onrender.com";
 
 function App() {
   const [resources, setResources] = useState([]);
